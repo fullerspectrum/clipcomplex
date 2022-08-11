@@ -15,7 +15,7 @@ Installing:
 Running:   
 ```npm run dev```   
 
-Setting this up (as is) requires Supabase with Twitch auth as well as the included express server for getting YT data. 
+Setting this up (as is) requires Supabase with Twitch auth as well as the ~~included~~ (sorry) express server for getting YT data. 
 You also need these environment variables:
 ```   
 VITE_SUPABASE_URL   
