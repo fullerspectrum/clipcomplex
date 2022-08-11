@@ -2,10 +2,13 @@
   "name": "clipcomplex",
   "private": true,
   "version": "0.0.0",
+  "homepage":"https://fullerspectrum.github.io/clipcomplex",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.0",

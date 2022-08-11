@@ -91,7 +91,7 @@ function Navbar(props) {
           ) : (
             <Button
               variant="outline"
-              onClick={() => supabase.auth.signIn({ provider: "twitch" })}
+              onClick={() => supabase.auth.signIn({ provider: "twitch" }, {redirectTo: "https://isaiah.moe/clipcomplex/"})}
             >
               {twitchIcon} {logInIcon}
             </Button>
